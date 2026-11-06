@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://doezz.com/doezz/sitemap.xml
+Sitemap: https://dannielele.github.io/doezz/sitemap.xml
