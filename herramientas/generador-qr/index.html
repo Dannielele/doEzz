@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Generador de códigos QR gratis: crea y descarga en PNG | doEzz</title>
+<meta name="description" content="Crea códigos QR de enlaces, texto o direcciones web y descárgalos en PNG. Gratis, sin registro y sin marcas de agua.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Generador de códigos QR gratis: crea y descarga en PNG | doEzz">
+<meta property="og:description" content="Crea códigos QR de enlaces, texto o direcciones web y descárgalos en PNG. Gratis, sin registro y sin marcas de agua.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_MX">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<script>try{var t=localStorage.getItem("doezz-theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="../../css/styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Generador de códigos QR", "description": "Crea códigos QR de enlaces, texto o direcciones web y descárgalos en PNG. Gratis, sin registro y sin marcas de agua.", "applicationCategory": "UtilityApplication", "operatingSystem": "Cualquiera", "inLanguage": "es", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+</head>
+<body data-root="../../" data-page="herramientas">
+<a class="skip" href="#main">Saltar al contenido</a>
+<div id="site-header"></div>
+<main id="main">
+<div class="wrap">
+<nav class="crumbs" aria-label="Ruta"><a href="../../index.html">Inicio</a> / <a href="../../index.html#herramientas">Herramientas</a> / generador de códigos QR</nav>
+<div class="tool-head"><h1>Generador de códigos QR</h1><p>Escribe un enlace o un texto y obtén tu código QR al instante.</p></div>
+<section class="panel cols">
+<div>
+<div class="field"><label for="qr-text">Texto, enlace o dirección web</label><textarea id="qr-text" style="min-height:130px" placeholder="https://ejemplo.com" autocomplete="off"></textarea></div>
+<div class="field"><label for="size">Tamaño de la imagen</label><select id="size"><option value="256">Pequeño (256 px)</option><option value="512" selected>Mediano (512 px)</option><option value="1024">Grande (1024 px)</option></select></div>
+<p class="err" id="err" role="alert"></p>
+<div class="row"><button class="btn ghost" type="button" id="copy-btn" disabled>Copiar contenido</button><button class="btn ghost" type="button" id="clear-btn">Limpiar</button></div>
+</div>
+<div><div class="qr-box"><canvas id="qr-canvas" hidden role="img" aria-label="Código QR generado"></canvas><p class="ph" id="qr-ph">Tu código QR aparecerá aquí.</p></div>
+<div class="row"><button class="btn" type="button" id="dl-btn" disabled>Descargar PNG</button></div></div>
+</section>
+<!-- Espacio reservado para Google AdSense (oculto hasta activar la clase "ads-on" en <html>; ver README). -->
+<aside class="ad-slot" data-slot="tool-top" aria-label="Publicidad"></aside>
+<article class="prose narrow" style="padding:20px 0">
+<h2>Cómo usar la generador de códigos QR</h2><ol><li>Escribe o pega el enlace o texto.</li><li>Elige el tamaño de la imagen.</li><li>Revisa la vista previa y pruébala con tu celular.</li><li>Pulsa «Descargar PNG» para guardarla.</li></ol>
+<h2>Preguntas frecuentes</h2><p><strong>¿Hay límite de longitud?</strong><br>Sí: hasta unos 650 caracteres. Para un buen escaneo conviene usar contenidos cortos, como un enlace.</p><p><strong>¿El código caduca?</strong><br>No. El código contiene directamente tu texto, así que funciona para siempre y no depende de doEzz.</p><p><strong>¿Se envía mi contenido a algún servidor?</strong><br>No. El código se genera en tu dispositivo.</p>
+</article>
+<!-- Espacio reservado para Google AdSense (oculto hasta activar la clase "ads-on" en <html>; ver README). -->
+<aside class="ad-slot" data-slot="tool-bottom" aria-label="Publicidad"></aside>
+</div>
+</main>
+<div id="site-footer"></div>
+<script src="../../js/config.js" defer></script>
+<script src="../../js/components.js" defer></script>
+<script src="../../js/qr.js" defer></script>
+<script src="../../js/tools/qr-tool.js" defer></script>
+</body>
+</html>
